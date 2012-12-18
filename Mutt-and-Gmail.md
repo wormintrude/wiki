@@ -89,5 +89,4 @@ All done ? Type 'q' to exit mutt!
 
 ## Useful Links  
 http://lifehacker.com/5574557/how-to-use-the-fast-and-powerful-mutt-email-client-with-gmail  
-http://www.andrews-corner.org/mutt.html  
 
