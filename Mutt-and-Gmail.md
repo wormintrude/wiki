@@ -73,4 +73,17 @@ macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
 - c lets you change to a different folder  
 - / lets you search the current folder  
 
+## Asynchronous  
+For some of the above commands, mutt will not do anything immediately. Instead it will mark tasks to carry out. Once youve made all the changes that you wanted, hitting the $ key will apply all the changes to your Gmail inbox.  
+
+## Sending email with mutt  
+The basics look like this:  
+- Type m (or r if you are replying to a mail)  
+- Enter the recipients email address; hit Return  
+- Enter a subject; hit Return  
+- Write your message  
+- Save it  
+- Type y and your message will be sent  
+
+All done ? Type 'q' to exit mutt!  
 
