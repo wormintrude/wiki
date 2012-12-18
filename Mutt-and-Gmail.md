@@ -11,7 +11,7 @@ $ brew install mutt
 
 # Change the following six lines to match your Gmail account details
 set imap_user = "YOUR.EMAIL@gmail.com"
-set imap_pass = "PASSWORD"
+set imap_pass = "PASSWORD" # If you dont save your password, you will be prompted every time
 set smtp_url = "smtp://YOUR.EMAIL@smtp.gmail.com:587/"
 set smtp_pass = "PASSWORD"
 set from = "YOUR.EMAIL@gmail.com"
@@ -56,5 +56,21 @@ macro index,pager ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
 macro index,pager gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
 macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
 ```  
+
+## Shortcuts for navigating mutt  
+- j: to move down  
+- k: to move up  
+- d: to delete a message  
+- y: to archive a message  
+- gi: to view your inbox  
+- ga: to view all mail (ALL mail, it will take time to load)  
+- gd: to view all drafts  
+- gs: to view all starred messages  
+
+### Mutt specific  
+- t will mark a message  
+- s will save a message, or more  
+- c lets you change to a different folder  
+- / lets you search the current folder  
 
 
