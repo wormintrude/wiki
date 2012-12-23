@@ -58,16 +58,18 @@ macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
 ```  
 
 ## Shortcuts for navigating mutt  
-- j: to move down  
-- k: to move up  
-- d: to delete a message  
-- y: to archive a message  
+  
+### Gmail specific user-defined bindings
 - gi: to view your inbox  
 - ga: to view all mail (ALL mail, it will take time to load)  
 - gd: to view all drafts  
 - gs: to view all starred messages  
 
 ### Mutt specific  
+- j: to move down  
+- k: to move up  
+- d: to delete a message  
+- y: to archive a message  
 - t will mark a message  
 - s will save a message, or more  
 - c lets you change to a different folder  
